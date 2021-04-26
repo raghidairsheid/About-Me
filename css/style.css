@@ -1,0 +1,25 @@
+#part1 {
+    font-family: serif;
+    color:rgb(36, 160, 42);
+}
+img {
+    width: 500px;
+    border: 3px solid yallow;
+    margin: 20px; 
+}
+
+h1{
+    text-align: center;
+    color: rgb(13, 209, 88);
+    margin-top: 100px;
+    font-family: serif;
+    padding: 10px 50px 10px 20px;
+}
+P{
+    color: rgb(117, 39, 72);
+    text-decoration: none;
+    margin: 100px 20px 50px 20px;
+    font-family: cursive;
+    display: inline-block;
+    border: 2px solid #e40d30;
+  }  

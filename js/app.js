@@ -72,7 +72,7 @@ switch(v5){
 
 let vName;
 vName = prompt('Please enter yor name: ').toUpperCase();
-document.writeln('welcome '+ vName + ' to my site');
+document.writeln("<br>" + 'welcome '+ vName + ' to my site');
 alert('welcome '+ vName + ' to my site');
 console.log(vName);
 

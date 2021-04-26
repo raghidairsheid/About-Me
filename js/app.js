@@ -74,3 +74,4 @@ let vName;
 vName = prompt('Please enter yor name: ').toUpperCase();
 alert('welcome '+ vName + ' to my site');
 console.log(vName);
+document.writeln('welcome '+ vName + ' to my site');

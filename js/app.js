@@ -1,5 +1,5 @@
 'use strict';
-let score=0;
+
 //q1
 let v1 = prompt('Do you love plane? yes or no').toUpperCase();
 
@@ -75,58 +75,36 @@ switch(v5){
         console.log("you does'nt love Sea  ", v5);
         alert('you write '+ v5 + " it's wrong");
 }
-//q6
-let vName = prompt('Please enter yor name: ').toUpperCase();
-document.write("<br/>" + 'welcome '+ vName + ' to my site');
-alert('welcome '+ vName + ' to my site');
-console.log(vName);
+// //q6
+// let vName = prompt('Please enter yor name: ').toUpperCase();
+// document.write("<br/>" + 'welcome '+ vName + ' to my site');
+// alert('welcome '+ vName + ' to my site');
+// console.log(vName);
 
-let q6;
-for (let i=0; i<4;i++){
-    q6 = parseInt(prompt('How many hours do you sleep per day?, prese guess number:'));
+// let q6;
+// for (let i=0; i<4;i++){
+//     q6 = parseInt(prompt('How many hours do you sleep per day?, prese guess number:'));
    
-    if(q6 <8){ 
-        alert("I don't sleep enough today, it's too low ");
-        console.log("I don't sleep enough today, " + q6);
-    }else if(q6 >=9){
-        alert("I sleep much than 9 hours, it's too high ");
-        console.log("I sleep much than 9 hours," + q6);
-    }else if(q6 === 8){
-        alert("I sleep 8 hours, it's too high ");
-        console.log("I sleep 8 hours," + q6);
-        break;
-    }
-}
-    if(q6 == 8){
-         alert("The correct answer is: "+ q6);
-        console.log("The correct answer is: "+ q6);
-         score++;
-     }
-    else if(q6 != 8) {
-        alert("It's not correct answer is: "+ q6); 
-        console.log("It's not correct answer is: "+ q6); 
-     }
+//     if(q6 <8){ 
+//         alert("I don't sleep enough today, it's too low ");
+//         console.log("I don't sleep enough today, " + q6);
+//     }else if(q6 >=9){
+//         alert("I sleep much than 9 hours, it's too high ");
+//         console.log("I sleep much than 9 hours," + q6);
+//     }else if(q6 === 8){
+//         alert("I sleep 8 hours, it's too high ");
+//         console.log("I sleep 8 hours," + q6);
+//         break;
+//     }
+// }
+//     if(q6 == 8){
+//          alert("The correct answer is: "+ q6);
+//         console.log("The correct answer is: "+ q6);
+//          score++;
+//      }
+//     else if(q6 != 8) {
+//         alert("It's not correct answer is: "+ q6); 
+//         console.log("It's not correct answer is: "+ q6); 
+//      }
  
-    
-//q7
-let user = ['batool', 'hasan', 'raghida', 'sara', 'saja', 'anood'];
-let userAnswer;
-let flag = false; 
-let i = 0;
-while (i < 6) {
-   userAnswer= prompt('what is my name? Guess it ^_^ ');
-    if (userAnswer === user[i] ) {
-        //i++;
-        console.log('yes that\'s, my name is '+ userAnswer);
-        flag = true;
-        score++;
-        break;
-    }  
-    else{
-        console.log('sorry it is not one of them');
-     }
-}
-
-console.log('The AVG of correct answer is: ' + score + ' of 7');
-
-    
+ 

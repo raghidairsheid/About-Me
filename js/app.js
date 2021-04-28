@@ -1,110 +1,223 @@
+
+//lab02
+
+
 'use strict';
+let score=0;
+
+
+let userName = prompt('What is your name: ').toUpperCase();
+
+alert ('Wlecome ' + userName + ' please, I will ask you some questions about my self ');
+console.log('Wlecome ' + userName + ' please, I will ask you some questions about my self ');
 
 //q1
-let v1 = prompt('Do you love plane? yes or no').toUpperCase();
-
-switch(v1){
-    case 'YES':
-        document.writeln('<img src="img/plane1.jpg" />'+"<br>");
-        
-        alert('you write '+ v1);
-        console.log(v1);
-        score++;
-        break;
-    case 'NO':
-        document.writeln('you does not love plane '+"<br>");
-        console.log("you does'nt love plane ", v1);
-        alert('you write '+ v1 + " it's wrong");
+let myName = prompt('Is my name Raghida? ').toLowerCase();
+//for(let userAnswer1=1; userAnswer1<=4 ; userAnswer1++){
+    switch (myName)
+    {
+        case 'y':
+            alert('That\'s true, Im Raghida ');
+            console.log('That\'s true,'+myName);
+            score++;
+            break;
+        case 'yes':
+            alert('That\'s true, Im Raghida ');
+            console.log('That\'s true,'+myName);
+            score++;
+            break;
+        case 'n':
+            console.log('Sorry, but my name is '+myName);
+            alert('Sorry, but my name is Raghida ');
+            break;
+        case 'no':
+            console.log('Sorry, but my name is '+myName);
+            alert('Sorry, but my name is Raghida ');
+            break;
+        default:
+            console.log(myName);
+            console.log ('Sorry, but my name is Raghida ');
+            alert('Sorry, but my name is Raghida ');
+            break;
     }
+
+alert('My name is Raghida\n ');
+console.log('My name is '+myName);
+
 //q2
-let v2 = prompt('Do you love travel? yes or no').toUpperCase();
 
-if (v2 == 'YES'){
-    document.writeln('<img src="img/travel.jpg" />' +"<br>");
-    alert('you write '+ v2);
-    console.log(v2);
-    score++;
-}
-else if(v2 == 'NO'){
-    document.writeln('you does not love travel '+"<br>");
-    alert('you write '+ v2 + " it's wrong");
-    console.log('you does not love travel ', v2);
-}
-//q3
-let v3 = prompt('Do you love Strawberries ? y or n ').toLowerCase();
-switch(v3){
-    case 'y':
-        document.writeln('<img src="img/strawberries.jpg" />'+"<br>");
-        alert('you write '+ v3);
-        console.log(v3);
+let fromPlace = prompt('Is Raghida from Jordan?').toLowerCase();
+
+switch(fromPlace){
+    case 'yes':
+        alert('yes, I\'m from Jordan ');
+        console.log(fromPlace);
         score++;
         break;
-
-    case 'n':
-        document.writeln('you does not love Strawberries '+"<br>");
-        console.log("you does'nt love Strawberries  ", v3);
-        alert('you write '+ v3 + " it's wrong");
-}
-
-//q4
-let v4 = prompt('Do you love cherries ? y or n ').toUpperCase();
-switch(v4){
-    case 'Y':
-        document.writeln('<img src="img/cherries.jpg" />'+ "<br>");
-        alert('you write '+ v4);
-        console.log(v4);
+    case 'y':
+        alert('yes, I\'m from Jordan ');
+        console.log(fromPlace);
         score++;
         break;
-
-    case 'N':
-        document.writeln('you does not love cherries '+"<br>");
-        console.log("you does'nt love cherries  ", v4);
-        alert('you write '+ v4 + " it's wrong");
-}
-//q5
-let v5 = prompt('Do you love Sea ? y or n ').toLowerCase();
-switch(v5){
-    case 'y':
-        document.writeln('<img src="https://th.bing.com/th/id/OIP.wzkoDR-Cndp5RIAKoOwU_QHaEK?w=323&h=182&c=7&o=5&pid=1.7" />');
-        alert('you write '+ v5);
-        console.log(v5);
-        score++;
+    case 'no':
+        console.log("it's wrong ", fromPlace);
+        alert(" it's wrong ");
         break;
     case 'n':
-        document.writeln('you does not love Sea '+"<br>");
-        console.log("you does'nt love Sea  ", v5);
-        alert('you write '+ v5 + " it's wrong");
-}
-// //q6
-// let vName = prompt('Please enter yor name: ').toUpperCase();
-// document.write("<br/>" + 'welcome '+ vName + ' to my site');
-// alert('welcome '+ vName + ' to my site');
-// console.log(vName);
+        console.log("it's wrong ", fromPlace);
+        alert(" it's wrong ");
+        break;
+    default:
+        console.log(fromPlace);
+        console.log (" it's wrong, I'm from Jordan ");
+        alert(" it's wrong, I'm from Jordan ");
+        break;
+    }
+    alert('My name is Raghida\n '+ "I\'m from Jordan\n" );
 
-// let q6;
-// for (let i=0; i<4;i++){
-//     q6 = parseInt(prompt('How many hours do you sleep per day?, prese guess number:'));
-   
-//     if(q6 <8){ 
-//         alert("I don't sleep enough today, it's too low ");
-//         console.log("I don't sleep enough today, " + q6);
-//     }else if(q6 >=9){
-//         alert("I sleep much than 9 hours, it's too high ");
-//         console.log("I sleep much than 9 hours," + q6);
-//     }else if(q6 === 8){
-//         alert("I sleep 8 hours, it's too high ");
-//         console.log("I sleep 8 hours," + q6);
-//         break;
-//     }
-// }
-//     if(q6 == 8){
-//          alert("The correct answer is: "+ q6);
-//         console.log("The correct answer is: "+ q6);
-//          score++;
-//      }
-//     else if(q6 != 8) {
-//         alert("It's not correct answer is: "+ q6); 
-//         console.log("It's not correct answer is: "+ q6); 
-//      }
- 
- 
+//q3 
+let userWork = prompt('Is Raghida working?').toLowerCase();
+switch (userWork)
+{
+    case 'yes':
+        console.log ("yes, I'm working");
+        alert ("yes, I'm working");
+        score++;
+        break;
+    case 'y':
+        console.log ("yes, I'm working");
+        alert ("yes, I'm working");
+        score++;
+        break;
+    case 'no':
+        alert("it's wrong ");
+        console.log ("it's wrong ");
+        break;
+    case 'n':
+        alert("it's wrong ");
+        console.log ("it's wrong, I'm working ");
+        break;
+    default:
+        console.log(userWork);
+        console.log ("it's wrong, I don't work");
+        alert("it's wrong, I don't work");
+        break;
+}
+alert('My name is Raghida\n '+ "I\'m from Jordan\n" +" I'm working\n");
+
+
+//q4 
+let userEducation = prompt('Are Raghida is studied Computer Science? ').toLowerCase();
+
+switch(userEducation){
+    case 'y':
+        alert('yes, I\'m studied computer science ');
+        console.log(userEducation);
+        score++;
+        break;
+    case 'yes':
+        alert('yes, I\'m studied computer science ');
+        console.log(userEducation);
+        score++;
+        break;
+    case 'n':
+        console.log("it's wrong ", userEducation);
+        alert(" it's wrong, I'm studied computer science ");
+        break;
+    case 'no':
+        console.log("it's wrong ", userEducation);
+        alert(" it's wrong, I'm studied computer science ");
+        break;
+    default:
+        console.log(userEducation);
+        console.log ("it's wrong, I'm studied computer science ");
+        alert("it's wrong, I'm studied computer science ");
+        break;
+
+    }
+alert('My name is Raghida\n '+ "I\'m from Jordan\n"+ "I'm studied computer science\n" );
+console.log( 'My Education is ' + userEducation);
+
+//q5 
+let userYU = prompt('Are Raghida is studied in Yarmouk University?').toLowerCase();
+
+switch(userYU){
+    case 'y':
+        alert('yes, I\'m studied in Yarmouk University');
+        console.log(userYU);
+        score++;
+        break;
+    case 'yes':
+        alert('yes, I\'m studied in Yarmouk University');
+        console.log(userYU);
+        score++;
+        break;
+    case 'n':
+        console.log("it's wrong ", userYU);
+        alert(" it's wrong, I'm studied in Yarmouk University");
+        break;
+    case 'no':
+        console.log("it's wrong ", userYU);
+        alert(" it's wrong, I'm studied in Yarmouk University");
+        break;
+    default:
+        console.log(userYU);
+        console.log ( "it's wrong, I\'m studied in Yarmouk University");
+        alert( "it's wrong, I\'m studied in Yarmouk University");
+        break;
+    }
+alert('My name is Raghida\n '+ "I\'m from Jordan\n"+ "I'm studied computer science\n" + " I'm studied in Yarmouk University\n" );
+console.log( 'My University is ' + userYU);
+
+
+//q6
+let myAge=22;
+for(let userAnswer2=1; userAnswer2<=4 ; userAnswer2++){
+    myAge = parseInt(prompt('Guess my age: '));
+    if(myAge === 22){
+        alert('correct, My age is 22 ');
+        score++;
+        break;
+    }
+    else if(myAge < 22){
+        alert('too low ');
+    }else if(myAge > 22){
+        alert('too high')
+    }
+}
+alert('My name is Raghida\n '+ "I\'m from Jordan\n" + "I'm studied computer science\n" + " I'm studied in Yarmouk University\n" +'My age is 22 \n');
+console.log( 'My age is ' + myAge);
+
+
+//q7
+let dateOfbirthday = ['1995','1998','2000','2012'+'1991'+'1994']
+let userAnswer;
+let flag = false; 
+
+for (let attempt = 1; attempt <=6; attempt++) {
+    userAnswer= prompt('Guess date of my birthday? ^_^ ');
+    for(let i=0; i < dateOfbirthday[i]; i++) {
+        if (userAnswer === dateOfbirthday[i] ){
+            flag = true;
+            console.log('my DB is '+ userAnswer);
+            alert('correct, my DB is '+ userAnswer);
+            score++;
+            break;
+        }
+    }
+    if(flag === true){
+        break;
+    }
+}
+console.log('Date of my birthday is ' +userAnswer);
+
+
+console.log('The AVG of correct answer is: ' + score + ' of 7');
+
+alert(" See you again "+ userName);
+
+
+
+
+
+

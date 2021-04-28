@@ -3,7 +3,7 @@
     color:rgb(36, 160, 42);
 }
 img {
-    width: 300px;
+    width: 200px;
     border: 3px solid yallow;
     margin: 20px; 
 }
@@ -16,10 +16,23 @@ h1{
     padding: 10px 50px 10px 20px;
 }
 P{
-    color: rgb(117, 39, 72);
+    color: rgb(139, 7, 62);
     text-decoration: none;
     margin: 100px 20px 50px 20px;
     font-family: cursive;
     display: inline-block;
-    border: 2px solid #e40d30;
+    border: 2px solid #a75b67;
   }  
+  nav ul li a{
+    text-decoration: none;
+    background-color: bisque; 
+    font-family: courier;
+    color: blue; 
+  }
+
+  nav ul li{
+    border:2px solid rgb(136, 168, 194) ;
+    padding: 10px;
+    margin: 10px;
+    
+  }

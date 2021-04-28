@@ -2,6 +2,7 @@
 let score=0;
 
 //q1
+let questionOne=function(){
 let myAge;
 for(let userAnswer2=1; userAnswer2<=4 ; userAnswer2++){
     myAge = parseInt(prompt('Guess my age: '));
@@ -18,8 +19,11 @@ for(let userAnswer2=1; userAnswer2<=4 ; userAnswer2++){
 }
 alert('My age is 22 ');
 console.log( 'My age is ' + myAge);
-
+}
+questionOne();
 //q2
+let questionTwo=function(){
+
 let myfavNum;
 for(let userAnswer3=1; userAnswer3<=4 ; userAnswer3++){
     myfavNum = parseInt(prompt('Guess my favorite number: '));
@@ -36,8 +40,10 @@ for(let userAnswer3=1; userAnswer3<=4 ; userAnswer3++){
 }
 alert('My favorite number is 1 ');
 console.log( 'My favorite number is ' + myfavNum);
-
+}
+questionTwo();
 //q3
+let questionThree=function(){
 let mydayBD;
 for(let userAnswer4=1; userAnswer4<=4 ; userAnswer4++){
     mydayBD = parseInt(prompt('Guess day of my birthday: '));
@@ -54,8 +60,10 @@ for(let userAnswer4=1; userAnswer4<=4 ; userAnswer4++){
 }
 alert('Day of my birthday is 19 ');
 console.log( 'Day of my birthday is ' + mydayBD);
-
+}
+questionThree();
 //q4
+let questionFour=function(){
 let myMonthBD;
 for(let userAnswer5=1; userAnswer5<=4 ; userAnswer5++){
     myMonthBD = parseInt(prompt('Guess Month of my birthday: '));
@@ -72,8 +80,10 @@ for(let userAnswer5=1; userAnswer5<=4 ; userAnswer5++){
 }
 alert('Month of my birthday is 8 ');
 console.log( 'Month of my birthday is ' + myMonthBD);
-
+}
+questionFour();
 //q5
+let questionFive= function(){
 let myYearBD;
 for(let userAnswer6=1; userAnswer6<=4 ; userAnswer6++){
     myYearBD = parseInt(prompt('Guess Year of my birthday: '));
@@ -90,8 +100,10 @@ for(let userAnswer6=1; userAnswer6<=4 ; userAnswer6++){
 }
 alert('Year of my birthday is 19 ');
 console.log( 'Year of my birthday is ' + myYearBD);
-
+}
+questionFive();
 //q6
+let questionSix=function(){
 let myStudyNum;
 for(let userAnswer7=1; userAnswer7<=4 ; userAnswer7++){
     myStudyNum = Number(prompt('Guess Year of my birthday: '));
@@ -109,8 +121,10 @@ for(let userAnswer7=1; userAnswer7<=4 ; userAnswer7++){
 alert('The number of years of my studiesis 4 ');
 console.log( 'Year of my birthday is ' + myStudyNum);
 
-
+}
+questionSix();
 //q7
+let questionSeven=function(){
 let user = ['batool', 'hasan', 'raghida', 'sara', 'saja', 'anood'];
 let userAnswer;
 let flag = false; 
@@ -131,4 +145,5 @@ while (i < 6) {
 
 console.log('The AVG of correct answer is: ' + score + ' of 7');
 
-    
+}
+questionSeven();   

@@ -1,8 +1,7 @@
-
+'use strict';
 //lab02
 
 
-'use strict';
 let score=0;
 
 

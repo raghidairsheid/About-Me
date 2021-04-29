@@ -31,8 +31,14 @@ P{
   }
 
   nav ul li{
-    border:2px solid rgb(136, 168, 194) ;
+  
     padding: 10px;
     margin: 10px;
-    
+    color: rgb(62, 20, 99);
+  }
+  nav ol li{
+    color: #ea00ff;
+  }
+  #part3{
+    border:2px solid rgb(136, 168, 194) ;
   }

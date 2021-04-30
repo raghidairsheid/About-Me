@@ -208,6 +208,7 @@ let questionSeven=function(dateOfbirthday){
 let flag = false; 
     for (let i = 0; i <6; i++) {
         userAnswer= prompt('Guess date of my birthday? ^_^ ');
+        
         for(let j=0; j < dateOfbirthday.length; j++) {
             if (userAnswer === dateOfbirthday[j] ){
                 console.log('my DB is '+ userAnswer);
@@ -226,7 +227,7 @@ let flag = false;
     }
 }
 let userAnswer;
-let dateOfbirthday = ['1995','1998','2000','2012'+'1991'+'1994'];
+let dateOfbirthday = ['1995','1998','1996'];
 questionSeven(dateOfbirthday);
 
 alert('My name is Raghida\n '+ "I\'m from Jordan\n" + "I'm studied computer science\n" + " I'm studied in Yarmouk University\n" +'My age is 22 \n'+ 'Date of my birthday is ' +userAnswer);

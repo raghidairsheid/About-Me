@@ -2,20 +2,34 @@
     font-family: serif;
     color:rgb(36, 160, 42);
 }
-img {
-    width: 200px;
-    border: 3px solid yallow;
-    margin: 20px; 
+
+h1:first-letter{  
+  text-shadow: 20px;
+  text-align: center;
+  color: rgb(13, 209, 88);
+  font-family: serif;
 }
 
 h1{
+    font-size: 50px;
+    text-shadow: 20px;
     text-align: center;
     color: rgb(13, 209, 88);
     margin-top: 100px;
     font-family: serif;
     padding: 10px 50px 10px 20px;
 }
+h4{
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: left;
+  color: rgb(209, 52, 13);
+  margin-top: 100px;
+  font-family: serif;
+  padding: 10px 50px 10px 20px;
+}
 P{
+    font-size: 20px;
     color: rgb(139, 7, 62);
     text-decoration: none;
     margin: 100px 20px 50px 20px;
@@ -24,21 +38,42 @@ P{
     border: 2px solid #a75b67;
   }  
   nav ul li a{
+    font-size: 20px;
     text-decoration: none;
     background-color: bisque; 
     font-family: courier;
     color: blue; 
   }
 
-  nav ul li{
-  
-    padding: 10px;
-    margin: 10px;
-    color: rgb(62, 20, 99);
-  }
-  nav ol li{
-    color: #ea00ff;
-  }
-  #part3{
-    border:2px solid rgb(136, 168, 194) ;
-  }
+nav ul li{
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(62, 20, 99);
+}
+nav ol li{
+  font-size: 15px;
+  color: #0099ff;
+  padding: 1px;
+  margin: 50px;
+}
+#part3{
+  border:2px solid rgb(136, 168, 194) ;
+}
+img {
+  width: 200px;
+  border: 3px unset yallow;
+  margin: 10px; 
+  align-items: center;
+ 
+}
+#dd{
+  background-color: rgb(209, 199, 212);
+  border: 10px;
+  width: 250px;
+  height: 300px;
+  top : 100px;
+  left: 900px;
+  position: relative;
+ padding: 10px 10px 10px 10px;
+}

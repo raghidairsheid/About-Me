@@ -1,3 +1,3 @@
 # About-Me
-driver: Raghida
-navigator: Sereen
+driver: Sereen
+navigator: Raghida
